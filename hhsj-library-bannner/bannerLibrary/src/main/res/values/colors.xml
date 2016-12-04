@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="line_long_dark">#dddddd</color>
+    <color name="line_short_dark">#eeeeee</color>
+</resources>

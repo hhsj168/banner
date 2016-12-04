@@ -1,0 +1,154 @@
+{
+    "data": {
+        "banner": [
+            {
+                "action": "",
+                "url": "file:///android_asset/pentakill_1.jpg",
+                "name": "傲之追猎者",
+                "color": {
+                    "name": "orange",
+                    "colorString": "#123456"
+                }
+            },
+            {
+                "action": "",
+                "url": "file:///android_asset/pentakill_2.jpg",
+                "name": "深渊巨口",
+                "color": {
+                    "name": "orange",
+                    "colorString": "#123456"
+                }
+            }
+        ],
+        "search_keywords": [
+
+        ],
+        "new": [
+            {
+                "action": "",
+                "url": "",
+                "name": "ZICO新曲诠释黑暗系百慕大三角",
+                "type": "new_song"
+            },
+            {
+                "action": "",
+                "url": "",
+                "name": "水晶男孩开启时光隧道诠释经典",
+                "type": "new_blume"
+            },
+            {
+                "action": "",
+                "url": "",
+                "name": "《配小姐的奇幻城堡》电影原声热播",
+                "type": "new_film"
+            }
+        ],
+        "recommend": {
+            "date": "",
+            "albumUrl": "",
+            "song": [
+                {
+                    "action": "",
+                    "url": "",
+                    "name": "害怕",
+                    "author": "孙燕姿"
+                },
+                {
+                    "action": "",
+                    "url": "",
+                    "name": "Sing It All Away",
+                    "author": "Walk off The Earth"
+                },
+                {
+                    "action": "",
+                    "url": "",
+                    "name": "月光曲",
+                    "author": "好妹妹乐队"
+                }
+            ]
+        },
+        "hot": [
+            {
+                "action": "",
+                "hear": 111000,
+                "url": "huacheng://music",
+                "title": "张碧晨|她一开嗓，全世界都安静了"
+            },
+            {
+                "action": "",
+                "hear": 88600,
+                "url": "",
+                "title": "Hebe美艳依旧，完美呈现撩人演绎"
+            },
+            {
+                "action": "",
+                "hear": 23490,
+                "url": "",
+                "title": "史上最伟大的100首HIPHOP单曲"
+            },
+            {
+                "action": "",
+                "hear": 768560,
+                "url": "",
+                "title": "真 半壁江山！推翻唱过无数次的汪峰"
+            },
+            {
+                "action": "",
+                "hear": 2345690,
+                "url": "",
+                "title": "教你做人！华语流程歌手说唱集"
+            },
+            {
+                "action": "",
+                "hear": 328903,
+                "url": "",
+                "title": "拒绝孤独：50首治愈系日语女声"
+            }
+        ],
+        "radio": [
+            {
+                "action": "",
+                "hear": 111000,
+                "url": "huacheng://music",
+                "title": "热歌"
+            },
+            {
+                "action": "",
+                "hear": 88600,
+                "url": "",
+                "title": "一人一首招牌歌"
+            },
+            {
+                "action": "",
+                "hear": 23490,
+                "url": "",
+                "title": "车载低音炮"
+            },
+            {
+                "action": "",
+                "hear": 111000,
+                "url": "huacheng://music",
+                "title": "伤感"
+            },
+            {
+                "action": "",
+                "hear": 88600,
+                "url": "",
+                "title": "KTV必点歌"
+            },
+            {
+                "action": "",
+                "hear": 23490,
+                "url": "",
+                "title": "网络流行"
+            }
+        ]
+    },
+    "status": {
+        "success": 1,
+        "error": {
+            "error_code": "",
+            "error_desc": ""
+        }
+    }
+}

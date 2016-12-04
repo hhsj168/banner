@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/content_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.hhsj.bannertest.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <Button
+            android:id="@+id/not_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="NOT_INDICATOR"/>
+
+        <Button
+            android:id="@+id/circle_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CIRCLE_INDICATOR"/>
+
+        <Button
+            android:id="@+id/num_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="NUM_INDICATOR"/>
+
+        <Button
+            android:id="@+id/num_indicator_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="NUM_INDICATOR_TITLE"/>
+
+        <Button
+            android:id="@+id/circle_indicator_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CIRCLE_INDICATOR_TITLE"/>
+
+        <Button
+            android:id="@+id/circle_indicator_title_inside"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CIRCLE_INDICATOR_TITLE_INSIDE"/>
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="INDICATOR_GRATIVE_LEFT"/>
+
+        <Button
+            android:id="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="INDICATOR_GRATIVE_CENTER"/>
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="INDICATOR_GRATIVE_RIGHT"/>
+
+        <Button
+            android:id="@+id/zoomout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ANIMATION_ZOOMOUT"/>
+
+        <Button
+            android:id="@+id/depth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ANIMATION_DEPTH"/>
+
+        <Button
+            android:id="@+id/rotatedown"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ANIMATION_ROTATEDOWN"/>
+    </LinearLayout>
+
+</ScrollView>
+
