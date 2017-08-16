@@ -1,6 +1,7 @@
 package com.hhsj.bannertest;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.util.Util;
 import com.hhsj.bannertest.bean.BannerData;
 import com.hhsj.library.banner.BannerView;
 import com.hhsj.library.banner.config.BannerConfig;
@@ -25,7 +27,9 @@ public class TestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         BannerView bannerView = (BannerView) findViewById(R.id.bannerview);
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            bannerView.getLayoutParams().height = getWindowManager().getDefaultDisplay().getMode().getPhysicalWidth()*9/16;
+        }
         int indicator = getIntent().getIntExtra("INDICATOR", BannerConfig.NOT_INDICATOR);
         int grative = getIntent().getIntExtra("GRAVITY", -1);
         int transformer = getIntent().getIntExtra("ANIMATION", -1);
@@ -59,6 +63,7 @@ public class TestActivity extends AppCompatActivity {
             /**
              * 添加数据
              */
+            bannerView.setAutoPlayEnable(true);
             bannerView.setImages(bannerList);
         }
     }
